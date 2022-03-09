@@ -36,7 +36,7 @@ const Auth = () => {
                     authService, email, password
                 );
 
-                console.log(data);
+                
             }else{
                 //Log in
                 data = await signInWithEmailAndPassword(
