@@ -5,6 +5,7 @@ import "firebase/compat/firestore";
 import "firebase/compat/storage";
 import "firebase/database";
 import "firebase/firestore";
+import "firebase/storage";
 
 
 
@@ -24,3 +25,4 @@ const app = initializeApp(firebaseConfig);
 export const firebaseInstance = firebase;
 export const authService = getAuth(app);
 export const dbService= firebase.firestore();
+export const storageService = firebase.storage();
